@@ -9,8 +9,8 @@ function  Portfolio() {
             {portfolio.map(project => (
                 <PortfolioItem
                 imgUrl={project.imgUrl}
-                title={project.stack}
-                stack={project.imgUrl}
+                title={project.title}
+                stack={project.stack}
                 link={project.link}
                 />
             ))}
